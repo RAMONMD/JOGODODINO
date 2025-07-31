@@ -5,13 +5,7 @@ let speed = 10;
 const acceleration = 10;
 const interval = 30;
 const gameAreawidth = document.getElementById("gamearea").offsetWidth;
-function jump() {
-    if (isjumping) return;
-    isjumping = true;
-    dino.style.animation = "none";
-    dino.offsetHeight; // força reflow
-    dino.style.animation = "jump 0.5s ease-out";
-}
+
   function jump() {
     if (isjumping) return;
     isjumping = true;
