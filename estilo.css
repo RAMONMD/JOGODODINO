@@ -1,0 +1,23 @@
+#GAMEAREA{
+    background-color: aquamarine;
+    border: 5px springgreen;
+}
+
+#dino{
+width: 550px; /*largura*/
+height: 350px; /*altura*/
+position: absolute;
+bottom: 7;
+}
+
+#obstaculo{
+    background-color: blueviolet;
+    width: 50px;
+    height: 50px;
+}
+
+@keyframes jump{
+0% {bottom: 0;}
+50% {bottom: 250px;}
+100% {bottom: 0;}
+}
