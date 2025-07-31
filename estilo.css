@@ -1,4 +1,4 @@
-#GAMEAREA{
+#gamearea{
     background-color: aquamarine;
     border: 5px springgreen;
 }
@@ -7,10 +7,10 @@
 width: 550px; /*largura*/
 height: 350px; /*altura*/
 position: absolute;
-bottom: 7;
+bottom: 7px;
 }
 
-#obstacolo{
+#obstaculo{
     background-color: blueviolet;
     width: 50px;
     height: 50px;
