@@ -11,6 +11,7 @@ function jump() {
     dino.style.animation = "none";
     dino.offsetHeight; // força reflow
     dino.style.animation = "jump 0.5s ease-out";
+}
   function jump() {
     if (isJumping) return;
     isJumping = true;
