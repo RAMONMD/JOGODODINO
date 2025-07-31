@@ -21,7 +21,7 @@ function jump() {
     if (event.code === "Space") {
         jump();
     }
-});
+});}
     function moveObstaculo() {
     let obstaculoPos = obstaculo.offsetLeft;
     obstaculo.style.left = obstaculoPos - speed + "px";
