@@ -1,6 +1,9 @@
 #gamearea{
     background-color: aquamarine;
     border: 5px springgreen;
+    width: 1500px ;
+    height: 600px ;
+    position: absolute;
 }
 
 #dino{
@@ -14,6 +17,10 @@ bottom: 7px;
     background-color: blueviolet;
     width: 50px;
     height: 50px;
+    position: absolute;
+    bottom: 0;
+    right:0 ;
+    
 }
 
 @keyframes jump{
